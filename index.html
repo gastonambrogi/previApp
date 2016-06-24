@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="author" content="Sam Norton">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>previApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+    <style>
+      body {
+          padding-top: 65px;
+          font-family: 'Open Sans', sans-serif;
+      }
+      .modal-title{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+      }
+      .modal-dialog {
+          width: 100%;
+          height: 100%;
+          padding: 0;
+          margin: 0;
+          color:white;
+      }
+      .modal-content {
+          height: 100%;
+          min-height: 100%;
+          height: auto;
+          border-radius: 0;
+      }
+      .modal.fade:not(.in).bottom .modal-dialog {
+      	-webkit-transform: translate3d(0, 25%, 0);
+      	transform: translate3d(0, 25%, 0);
+      }
+      .close{
+        color:white;
+        text-shadow: none;
+        opacity:1;
+        margin-top:0px;
+      }
+      nav {
+        background-color: #563d7c;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark navbar-fixed-top">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+        &#9776;
+      </button>
+
+      <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+        <a class="navbar-brand" href="#">previApp</a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Juegos <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Etc</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-offset-2 col-xs-8">
+          <div class="list-group">
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+            <a href="#" data-toggle="modal" data-target="#myModal" class="previgame list-group-item">JUEGO X</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" id="modalContent">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></button>
+              <h4 class="modal-title text-xs-center" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio neque, mollis ullamcorper venenatis quis, pharetra eu turpis. Aenean molestie mattis egestas. Donec at arcu ultrices, ullamcorper felis sed, convallis nunc. Proin faucibus viverra luctus. Etiam interdum iaculis urna. Nam quis ex at massa condimentum mattis quis semper purus. Morbi ac ipsum quis purus ullamcorper lacinia eu nec orci. Nam convallis purus laoreet purus convallis, sit amet aliquam odio pharetra. Pellentesque sollicitudin lacus at justo iaculis semper. Duis et est mattis, sagittis felis at, porta dui. Praesent scelerisque dolor in pulvinar blandit. Donec venenatis diam sem, ac venenatis ligula tincidunt ac. Donec vestibulum imperdiet lorem, non commodo massa finibus et. In dignissim ligula elit, et laoreet augue porttitor sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin tincidunt, justo sit amet egestas aliquam, ante eros fermentum tellus, vel condimentum erat ipsum eget felis. Vestibulum ultrices sit amet risus et varius. Vestibulum varius ipsum in pellentesque auctor. Nulla eu suscipit ipsum. In nisi augue, bibendum eget nulla et, hendrerit maximus mi. Phasellus odio justo, feugiat quis interdum at, ornare a leo. Aliquam tempor, erat a lobortis condimentum, ligula metus accumsan urna, a fringilla nibh tortor a tellus. Aliquam convallis porta dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam pretium felis vulputate dui euismod, quis elementum ex maximus. Etiam viverra quis metus a rhoncus. Donec ac tincidunt risus. Nulla facilisi. Aliquam vehicula pulvinar elit nec imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris elementum iaculis felis, ut iaculis odio rutrum et. Nullam lacus elit, gravida tincidunt nisl quis, viverra faucibus justo. Duis eleifend turpis et enim sodales, non vehicula risus egestas. Maecenas venenatis vulputate sapien, at rutrum orci. Phasellus consectetur, massa quis convallis blandit, risus sem vulputate libero, in facilisis lectus augue id orci. Quisque at porta tellus. Donec non blandit sem. Curabitur eu rhoncus nisi. Integer convallis lorem in lacus commodo, et efficitur diam auctor. Nam euismod placerat sapien. Donec nibh lectus, auctor ac tortor nec, posuere interdum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam at leo ornare, pulvinar sapien quis, blandit purus. Vivamus tempus vitae dolor a pretium. Praesent eu convallis diam. In congue ac libero id condimentum. In dapibus iaculis mauris, varius rutrum risus hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent venenatis, dui a facilisis venenatis, odio est facilisis ante, ut malesuada ipsum sem non nulla. Suspendisse non massa vitae massa ultricies congue. Nam vel rutrum mauris. Nulla aliquam aliquet varius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio neque, mollis ullamcorper venenatis quis, pharetra eu turpis. Aenean molestie mattis egestas. Donec at arcu ultrices, ullamcorper felis sed, convallis nunc. Proin faucibus viverra luctus. Etiam interdum iaculis urna. Nam quis ex at massa condimentum mattis quis semper purus. Morbi ac ipsum quis purus ullamcorper lacinia eu nec orci. Nam convallis purus laoreet purus convallis, sit amet aliquam odio pharetra. Pellentesque sollicitudin lacus at justo iaculis semper. Duis et est mattis, sagittis felis at, porta dui. Praesent scelerisque dolor in pulvinar blandit. Donec venenatis diam sem, ac venenatis ligula tincidunt ac. Donec vestibulum imperdiet lorem, non commodo massa finibus et. In dignissim ligula elit, et laoreet augue porttitor sit amet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin tincidunt, justo sit amet egestas aliquam, ante eros fermentum tellus, vel condimentum erat ipsum eget felis. Vestibulum ultrices sit amet risus et varius. Vestibulum varius ipsum in pellentesque auctor. Nulla eu suscipit ipsum. In nisi augue, bibendum eget nulla et, hendrerit maximus mi. Phasellus odio justo, feugiat quis interdum at, ornare a leo. Aliquam tempor, erat a lobortis condimentum, ligula metus accumsan urna, a fringilla nibh tortor a tellus. Aliquam convallis porta dictum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam pretium felis vulputate dui euismod, quis elementum ex maximus. Etiam viverra quis metus a rhoncus. Donec ac tincidunt risus. Nulla facilisi. Aliquam vehicula pulvinar elit nec imperdiet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris elementum iaculis felis, ut iaculis odio rutrum et. Nullam lacus elit, gravida tincidunt nisl quis, viverra faucibus justo. Duis eleifend turpis et enim sodales, non vehicula risus egestas. Maecenas venenatis vulputate sapien, at rutrum orci. Phasellus consectetur, massa quis convallis blandit, risus sem vulputate libero, in facilisis lectus augue id orci. Quisque at porta tellus. Donec non blandit sem. Curabitur eu rhoncus nisi. Integer convallis lorem in lacus commodo, et efficitur diam auctor. Nam euismod placerat sapien. Donec nibh lectus, auctor ac tortor nec, posuere interdum tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam at leo ornare, pulvinar sapien quis, blandit purus. Vivamus tempus vitae dolor a pretium. Praesent eu convallis diam. In congue ac libero id condimentum. In dapibus iaculis mauris, varius rutrum risus hendrerit sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent venenatis, dui a facilisis venenatis, odio est facilisis ante, ut malesuada ipsum sem non nulla. Suspendisse non massa vitae massa ultricies congue. Nam vel rutrum mauris. Nulla aliquam aliquet varius.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+    <script>
+      var gradients = [
+        ['#19B6C1','#03599A'], //,'#0E88AE'], //great
+        ['#27C4B9','#27C495'], //,'#27C4A7'],
+        ['#97437E','#DC245B'], //,'#B9336C'],
+        ['#136a8a','#267871'], //,'#1C717D'], //not sure
+        ['#6441A5','#2a0845'], //,'#472475'], //might be redundant of one below
+        ['#1A1023','#53346D'], //,'#362248'], //great, dark mysterious
+        ['#7C8E8D','#2F3950'], //,'#56646F'],
+        ['#00d2ff','#3a7bd5'], //,'#1DA6EA'], //great
+        ['#DE6262','#F7AC7E'], //,'#EA8770']
+      ];
+
+      var extraColours = ['#FD7240','#3888F2','#00C186','#F278DE'];
+
+      $('.previgame').click(function() {
+        var item = gradients[Math.floor(Math.random()*gradients.length)];
+        $('.modal').prop('class', 'modal fade').addClass('bottom');
+        $('.modal').find('.modal-content').css('background-image', 'linear-gradient(90deg, ' + item[0] +', ' + item[1] + ')');
+      });
+    </script>
+  </body>
+</html>
